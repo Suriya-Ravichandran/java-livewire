@@ -3,18 +3,18 @@ package method;
 public class Remote {
 	
 	
-	public void poweron() {
+	public static void poweron() {
 		System.out.println("AC is ON");
 	}
 	
-	public void poweroff() {
+	public static void poweroff() {
 		System.out.println("AC is off");
 	}
 	
-	public void tempincrease() {
+	public static void tempincrease() {
 		System.out.println("AC is Increasing Temp");
 	}
-	public void tempdecrease() {
+	public static void tempdecrease() {
 		System.out.println("AC is decreasing Temp");
 	}
 }

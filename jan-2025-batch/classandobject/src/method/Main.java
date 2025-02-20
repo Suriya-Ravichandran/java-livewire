@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		// object creation done by here
 		Scanner scn = new Scanner(System.in);
-		Remote r1=new Remote();
+//		Remote r1=new Remote();
 		// creating a loop		
 		
 		while(true) {
@@ -21,16 +21,16 @@ public class Main {
 		// control the program	
 		int choice=scn.nextInt();
 		if(choice==1) {
-			r1.poweron();
+			Remote.poweron();
 		}
 		else if(choice==2) {
-			r1.poweroff();
+			Remote.poweroff();
 		}
 		else if(choice==3) {
-			r1.tempincrease();
+			Remote.tempincrease();
 		}
 		else if(choice==4) {
-			r1.tempdecrease();
+			Remote.tempdecrease();
 		}
 		else if(choice==0) {
 			System.out.println("Batter Low !");
